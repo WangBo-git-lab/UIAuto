@@ -607,7 +607,7 @@ class BasePage:
         input_key_element.send_keys(key)
         read_button_element.click()
         result_element = self.find_element(MobileBy.ID, "local_storage_result_display")
-        return result_element.text
+        return result_element.text1
 
 
 
